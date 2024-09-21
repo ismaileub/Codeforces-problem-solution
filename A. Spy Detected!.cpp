@@ -43,6 +43,7 @@ int main()
 
         // Find the index of the unique element in the array (1-based index)
         auto iterator = find(arr.begin(), arr.end(), unique);
+
         //int index = iterator - arr.begin() + 1;
         int index = distance(arr.begin(), iterator) + 1;
 
